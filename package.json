@@ -1,0 +1,19 @@
+{
+  "name": "Hannah",
+  "single-instance": false,
+  "main": "/html/server.html",
+  "window": {
+    "width": 900,
+    "height": 700,
+    "toolbar": true
+  },
+  "dependencies": {
+    "ip": "^1.1.2",
+    "my-ip": "^1.1.1",
+    "jquery": "^2.2.2"
+  },
+  "version": "0.0.1",
+  "description": "Hannah",
+  "repository": {},
+  "author": "Eddy Valencia"
+}
