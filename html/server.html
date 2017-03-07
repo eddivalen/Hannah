@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 <head>
 	<meta charset="UTF-8">
-	<title>Server</title>
-	 <!-- Bootstrap core CSS -->
-    <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
+	<title>Servidor</title>
+
 <body>
-	<header style="text-align: center; font-size: 30px; font-weight: bold;"> Servidor </header>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">SERVIDOR</a>    </div>
+  </nav>
 	<div class="container">
-	<h4>Rango de los numeros de Hannah:</h4>
-	<label for="inputAnna">Cantidad</label><br>
-	<input type="number" id="inputAnna"><br><br>
-	<a class="btn btn-primary" href="#" id="begin">Empezar</a>
-	<h4 style="text-align:center">Clientes conectados:</h4>
-	<div style="text-align: center; margin-top: 15px;" id="list-conexiones">
+      <h4 class="header center orange-text">Clientes</h4>
+      <br><br>
+    </div>
+    <div class="container">
+      <h4 class="header center orange-text">Rango de los numeros de Hannah</h4>
+      <br><br>
+    </div>
+    <div class="container">
+      <h4 class="header center orange-text">Cantidad</h4>
+      <div class="input-field">
+          <input id="inputAnna" type="number">
+          <label for="inputAnna">Cantidad</label>
+    	</div>
+    </div>
+  </div>
+
+	<div style="text-align: center; margin-top: 40px;" id="list-conexiones">
 		
 	</div>
-	
-	<div style="font-size: 16px;margin-left: 10px" id="clients" class="row">
-	
+	<div style="font-size: 20px;" id="clients">
+
 	</div>
-	</div>
-	
+	<div class="row center">
+        <a href="#" id="begin" class="btn-large waves-effect waves-light orange">Empezar</a>
+     </div>
 </body>
-	<script src="../js/jquery.js"></script>
+<footer class="page-footer orange">
+    <div class="container">
+      <div class="row center">
+        <div class="col l6 s12">
+          <h5 class="white-text">Realizado por: </h5>
+          <p class="grey-text text-lighten-4">Cadevilla, Pedro CI: 21.170.180</p>
+          <p class="grey-text text-lighten-4">Valencia, Eddy CI: 21.341.720</p>
+      </div>
+    </div>
+  </footer>
+
+  	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script src="js/materialize.js"></script>
+  	<script src="js/init.js"></script>
+  	<script src="../js/jquery.js"></script>
 	<script src="../js/server.js"></script>
-	<script src="../vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-	
 </html>
